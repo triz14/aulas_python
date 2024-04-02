@@ -35,3 +35,27 @@ if a > c:
     # garantindo que a é o menor número
 
 print("Os valores em ordem crescente são:", a, b, c)
+
+#outra forma de fazer o exercicio
+
+n1 = int(input("Digite o primeiro valor: "))
+n2 = int(input("Digite o segundo valor: "))
+n3 = int(input("Digite o terceiro valor: "))
+
+if n1 == n2 or n2 == n3 or n1 == n3:
+    print("Não será lido valores iguais")
+
+menor = n1
+if n2 < menor:
+    menor = n2
+if n3 < menor:
+    menor = n3
+
+maior = n1
+if n2> n1:
+    maior = n2
+if n3> n2:
+    maior = n3
+
+meio = (n1+n2+n3) - menor - maior
+print(n1, n2, n3)
