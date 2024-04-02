@@ -1,6 +1,35 @@
 #Exercício 5
 #Escreva um programa para ler 3 valores inteiros (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
 
+# Solicita ao usuário que insira três números inteiros distintos
+val1 = int(input("Digite o primeiro valor inteiro: "))
+val2 = int(input("Digite o segundo valor inteiro: "))
+val3 = int(input("Digite o terceiro valor inteiro: "))
+
+# Inicializa as variáveis com os valores fornecidos pelo usuário
+a = val1
+b = val2
+c = val3
+# Ordenação
+if a > b:
+    aux = a
+    a = b
+    b = aux
+
+if a > c:
+    aux = a
+    a = c
+    c = aux
+
+if b > c:
+    aux = b
+    b = c
+    c = aux
+
+# Mostra os valores ordenados
+print("Os valores em ordem crescente são:", a, b, c)
+
+# outra forma (pior)
 val1 = int(input("Digite o primeiro valor: "))
 val2 = int(input("Digite o segundo valor: "))
 val3 = int(input("Digite o terceiro valor: "))
