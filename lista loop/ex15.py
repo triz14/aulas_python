@@ -12,6 +12,8 @@ A percentagem de votos nulos sobre o total de votos;
 A percentagem de votos em branco sobre o total de votos. Para finalizar o
 conjunto de votos tem-se o valor zero.'''
 
+# 1º tentativa
+
 voto = int(input("Em quem você deseja votar? 1- Duda 2- Rafa 3- Bella 4- Bia 5- Carol\n6- Nulo 7- Brnaco e 0- sair: "))
 duda = 0
 rafa = 0

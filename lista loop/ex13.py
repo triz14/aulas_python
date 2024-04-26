@@ -7,6 +7,8 @@ dobro do percentual do ano anterior. Faça um programa que determine o
 salário atual desse funcionário. Após concluir isto, altere o programa
 permitindo que o usuário digite o salário inicial do funcionário.'''
 
+# 1º tentativa
+
 ano = 1995
 salario = 1000
 aumento = 0.015

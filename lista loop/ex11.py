@@ -2,6 +2,8 @@
 número primo. Um número primo é aquele que é divisível somente por ele mesmo e por
 1.'''
 
+# 1º tentativa
+
 num = int(input("Digite um número: "))
 i = 2
 

@@ -1,5 +1,7 @@
 '''Faça um programa que calcule o mostre a média aritmética de N notas.'''
 
+# 1º tentativa
+
 qtd_u = int(input("Digite a quantidade de números desjados: "))
 qtd = 0
 media = 0
