@@ -1,0 +1,12 @@
+#2 - Declare uma lista com 10 numeros. Coloque os pares em uma
+# nova lista e os impares tambem.
+lista = [4,3,1,0,2,3,10,1,11,98]
+pares = []
+impares = []
+for i in range(len(lista)):
+    if lista[i] % 2 == 0:
+        pares.append(lista[i])
+        continue
+    impares.append(lista[i])
+    print(pares)
+    print(impares)
