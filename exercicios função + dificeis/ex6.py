@@ -18,6 +18,7 @@ def forca_opcao(msg,lista_opcoes):
         print(msg_erro)
         opcao = input(msg)
     return opcao
+
 def verifica_numero(msg):
     num = input(msg)
     if not num.isnumeric():
